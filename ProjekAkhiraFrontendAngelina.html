@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula 1 Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showPage('index')">Home</a></li>
+            <li><a href="#" onclick="showPage('content')">Content</a></li>
+            <li><a href="#" onclick="showPage('feedback')">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <!-- Pages -->
+    <div id="pages">
+        <!-- Index Page -->
+        <section id="index">
+            <h1>Welcome to Formula 1 World</h1>
+            <img src="F1.png" alt="Formula 1 Logo" width="200">
+            <p>This is the ultimate destination for Formula 1 enthusiasts.</p>
+        </section>
+
+        <!-- Content Page -->
+    <section id="content" style="display: none;">
+    <h1>About Formula 1</h1>
+    <p>Formula 1 is the premier motorsport championship where the best drivers and teams compete for glory. Formula 1, or F1, is the highest class of international single-seater auto racing governed by the Fédération Internationale de l'Automobile (FIA). Renowned for its intense competition, cutting-edge technology, and worldwide fanbase, F1 represents the pinnacle of motorsport. Each season, a series of Grand Prix races are held on iconic circuits and urban tracks around the globe, challenging teams and drivers to push their cars to the limits. Teams, composed of elite engineers and strategists, work tirelessly to develop aerodynamically advanced cars for optimal performance, while drivers showcase their skill and precision at speeds often exceeding 200 mph (320 km/h). F1 also serves as a testing ground for automotive innovations, with some advancements later applied to everyday vehicles. The sport’s global appeal is fueled by rivalries between top drivers and teams, all competing for the ultimate prizes: the Driver’s and Constructor’s Championships.</p>
+    
+    <h2>Teams</h2>
+    <table>
+        <tr>
+            <th>Team</th>
+            <th>Description</th>
+            <th>Logo</th>
+        </tr>
+        <tr>
+            <td><strong>Red Bull Racing</strong></td>
+            <td>Known for their recent dominance and driver lineup. Red Bull Racing, also known as Red Bull Racing Honda, is a Formula 1 team renowned for its bold, innovative approach and competitive spirit. Based in Milton Keynes, UK, and backed by the energy drink giant Red Bull, the team has achieved significant success, especially under the leadership of team principal Christian Horner. Known for its highly skilled drivers, including recent World Champion Max Verstappen, and cutting-edge engineering led by designer Adrian Newey, Red Bull Racing has consistently pushed boundaries in F1. The team’s focus on speed, precision, and aggressive race strategies has made it one of the most formidable competitors on the grid, frequently challenging traditional powerhouses like Mercedes and Ferrari.</td>
+            <td><img src="RedBull.jpg" alt="Logo Red Bull" width="150"></td>
+        </tr>
+        <tr>
+            <td><strong>Mercedes AMG Petronas</strong></td>
+            <td>Dominated the sport in the previous decade with numerous championships. Mercedes AMG Petronas Formula One Team, based in Brackley, UK, is one of Formula 1's most successful and iconic teams. Known for its dominance during the 2010s, especially with driver Lewis Hamilton, the team has achieved multiple Constructors' and Drivers' Championships. Powered by cutting-edge engineering and high-performance Mercedes engines, the team leverages advanced technology, aerodynamics, and data analytics to gain competitive advantages. Under the leadership of team principal Toto Wolff, Mercedes maintains a culture of innovation, precision, and resilience, continually pushing the limits of what’s possible in motorsport. Their distinctive silver livery and a commitment to sustainability also contribute to their unique identity on the F1 grid.</td>
+            <td><img src="Mercedes.jpg" alt="Logo Mercedes" width="150"></td>
+        </tr>
+        <tr>
+            <td><strong>Scuderia Ferrari</strong></td>
+            <td>The oldest and most successful team in F1 history. Scuderia Ferrari, the most storied team in Formula 1, is based in Maranello, Italy, and is renowned for its passionate following, iconic red cars, and rich racing heritage. As the oldest and most successful team in F1, Ferrari has won numerous Constructors' and Drivers' Championships, earning a place as a symbol of excellence and tradition in motorsport. Known for its skilled drivers and high-performance engineering, Ferrari continually pushes for innovation while honoring its legacy. The team’s strong Italian identity and commitment to speed and style make Ferrari a legendary force on the F1 grid, inspiring fans worldwide with every race.</td>
+            <td><img src="Ferrari.jpg" alt="Logo Ferrari" width="150"></td>
+        </tr>
+        <tr>
+            <td><strong>McLaren</strong></td>
+            <td>A team with a rich history and several championships. McLaren Racing, a powerhouse in Formula 1, is based in Woking, England, and known for its pioneering spirit, engineering innovation, and impressive track record. Founded by Bruce McLaren in 1963, the team quickly rose to prominence and has since won multiple Constructors’ and Drivers’ Championships. McLaren is celebrated for its distinctive orange livery and commitment to cutting-edge technology, which has led to iconic moments and legendary drivers, including Ayrton Senna and Alain Prost. Despite facing challenges in recent years, McLaren continues to be a competitive and ambitious team, inspiring fans with its resilience, passion, and pursuit of racing excellence.</td>
+            <td><img src="McLaren.jpg" alt="Logo McLaren" width="150"></td>
+        </tr>
+    </table>
+
+    <h2>Drivers</h2>
+    <table>
+        <tr>
+            <th>Team</th>
+            <th>Driver</th>
+            <th>Country</th>
+            <th>Driver Photos</th>
+        </tr>
+        <tr>
+            <td>Red Bull Racing</td>
+            <td>Max Verstappen</td>
+            <td>Netherlands</td>
+            <td><img src="Max.jpg" alt="Driver" width="150"></td>
+        </tr>
+        <tr>
+            <td>Red Bull Racing</td>
+            <td>Sergio Perez</td>
+            <td>Mexico</td>
+            <td><img src="Perez.jpg" alt="Driver" width="150"></td>
+        </tr>
+        <tr>
+            <td>Mercedes AMG Petronas</td>
+            <td>Lewis Hamilton</td>
+            <td>United Kingdom</td>
+            <td><img src="Hamilton.jpg" alt="Driver" width="150"></td>
+        </tr>
+        <tr>
+            <td>Mercedes AMG Petronas</td>
+            <td>George Russell</td>
+            <td>United Kingdom</td>
+            <td><img src="George.jpg" alt="Driver" width="150"></td>
+        </tr>
+        <tr>
+            <td>Scuderia Ferrari</td>
+            <td>Charles Leclerc</td>
+            <td>Monaco</td>
+            <td><img src="Leclerc.jpg" alt="Driver" width="150"></td>
+        </tr>
+        <tr>
+            <td>Scuderia Ferrari</td>
+            <td>Carlos Sainz</td>
+            <td>Spain</td>
+            <td><img src="Sainz.jpg" alt="Driver" width="150"></td>
+        </tr>
+        <tr>
+            <td>McLaren</td>
+            <td>Lando Norris</td>
+            <td>United Kingdom</td>
+            <td><img src="Lando.jpg" alt="Driver" width="150"></td>
+        </tr>
+        <tr>
+            <td>McLaren</td>
+            <td>Oscar Piastri</td>
+            <td>Australia</td>
+            <td><img src="Oscar.jpg" alt="Driver" width="150"></td>
+        </tr>
+    </table>
+</section>
+
+
+        <!-- Feedback Page -->
+        <section id="feedback" style="display: none;">
+            <h1>Feedback</h1>
+            <form id="feedbackForm">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="feedback">Your Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+            <p id="responseMessage"></p>
+        </section>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <p>Learning Labs 2024 | L0224001 | Angelina Harlitasari</p>
+    </footer>
+
+    <script>
+        // JavaScript functions as shown before
+    </script>
+
+    <script>
+        // Function to show the selected page and hide others
+        function showPage(pageId) {
+            const sections = document.querySelectorAll("#pages > section");
+            sections.forEach(section => {
+                section.style.display = section.id === pageId ? "block" : "none";
+            });
+        }
+    </script>
+    <script>
+        // Function to show the selected page and hide others
+        function showPage(pageId) {
+            const sections = document.querySelectorAll("#pages > section");
+            sections.forEach(section => {
+                section.style.display = section.id === pageId ? "block" : "none";
+            });
+        }
+    
+        // Function to handle feedback form submission
+        document.getElementById("feedbackForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form from submitting normally
+    
+            // Get the values from the form fields
+            const name = document.getElementById("name").value;
+            const feedback = document.getElementById("feedback").value;
+    
+            // Display a thank you message
+            const responseMessage = document.getElementById("responseMessage");
+            responseMessage.textContent = `Thank you, ${name}, for your feedback: "${feedback}"`;
+    
+            // Optionally, clear the form
+            document.getElementById("feedbackForm").reset();
+        });
+    </script>
+    
+</body>
+</html>
